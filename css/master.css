@@ -199,3 +199,81 @@
   bottom: 0;
   box-shadow: 0 0 100px 81px #abffff;
 }
+
+
+/******* About me section *******/
+
+
+div#about-me .row {
+    height: 500px;
+}
+
+#about-tab, .tab-content, .tab-pane, .tab-pane .container-fluid {
+    height: 100%;
+}
+
+div#about-tab a {
+    flex-grow: 1;
+}
+
+div#about-me {
+    background: #000;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid;
+    border-radius: 0!important;
+    border-right: 1px solid;
+    color: #abffff;
+}
+
+.nav-link:last-of-type {
+    border-bottom: none;
+}
+
+body {
+    color: #abffff;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    bottom: 372px;
+    background: rgba(0, 0, 0, 0.77);
+    top: 0;
+    /* border-top-right-radius: 120px; */
+    /* border-top-left-radius: 120px; */
+    left: 0;
+    right: 0;
+}
+
+.jobs .col-md-6 {
+    justify-content: center;
+}
+
+.jobs .col-md-6 div, .jobs .col-md-6 span {
+    padding: 15px;
+}
+
+.jobs .col-md-6 div {
+    background: rgba(255, 255, 255, 0.29);
+}
+
+.jobs .col-md-6 span {
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    border-left: none;
+}
+
+.jobs .col-md-6:first-of-type {
+    text-align: right;
+}
+
+.jobs .col-md-6:last-of-type {
+    text-align: left;
+}
