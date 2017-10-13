@@ -227,7 +227,7 @@ div#about-me {
     border-bottom: 1px solid;
     border-radius: 0!important;
     border-right: 1px solid;
-    color: #abffff;
+    color: #abffff!important;
 }
 
 .nav-link:last-of-type {
@@ -285,4 +285,32 @@ body {
 }
 .btn-primary:not(:hover) img {
     filter:invert(1)
+}
+
+#about-intro h3 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    letter-spacing: 25px;
+}
+
+a.nav-link:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    z-index: 0;
+    top: 0;
+    background: rgba(171, 255, 255, 0.28);
+    transition: all .5s ease-in-out;
+}
+
+a.nav-link {
+    z-index: 4;
+    position: relative;
+}
+
+a.nav-link:hover:after {
+    right: 0;
 }
