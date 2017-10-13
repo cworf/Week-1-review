@@ -77,7 +77,7 @@
      bottom: 0;
      left: 0;
      right: 0;
-     background: rgba(0, 0, 0, 0.69);
+     background: rgba(0, 0, 0, 0.87);
 }
 
 .row-head h2 {
@@ -276,4 +276,13 @@ body {
 
 .jobs .col-md-6:last-of-type {
     text-align: left;
+}
+
+.btn-primary {
+    color: #fff;
+    border-color: #abffff;
+    background-color: transparent;
+}
+.btn-primary:not(:hover) img {
+    filter:invert(1)
 }
