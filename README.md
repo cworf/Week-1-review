@@ -12,7 +12,7 @@ This is a single page website chronicling some details about Myself. It was a co
 
 1. Clone project ```$ git clone https://github.com/cworf/Week-1-review ```
 2. enter project by opening the repository and selecting index.html
-3. view final project online by visiting https://cworf.github.io/week-2-review/
+3. view final project online by visiting https://cworf.github.io/Week-1-review/
 
 ## Technologies used
 
